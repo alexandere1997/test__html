@@ -1,0 +1,45 @@
+.slider
+    display: flex
+    justify-content: center
+    height: 704px
+    background-color: #6dcff6
+    &__container    
+        width: 88%
+    &__title
+        text-align: center
+        font-family: 'PT Sans', sans-serif
+        font-size: 45px
+        font-weight: 700
+        color: #ffffff
+        margin: 0
+        margin-top: 75px
+        margin-bottom: 55px
+    &__item
+        display: flex
+        justify-content: center
+        align-items: center
+.swiper-wrapper
+    height: 450px !important
+.swiper-pagination-bullet
+    width: 50px !important
+    height: 50px !important
+    background-color: #fff !important
+    margin-right: 10px !important
+    margin-left: 10px !important
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev 
+    right: 420px !important
+    top: 412px !important
+    left: auto !important
+    z-index: 1000 !important
+.swiper-button-next
+    &::after
+        color: #fff !important
+        font-weight: bold
+.swiper-button-prev
+    left: 420px !important
+    top: 412px !important
+    z-index: 1000 !important
+.swiper-button-prev
+    &::after
+        color: #fff !important
+        font-weight: bold
